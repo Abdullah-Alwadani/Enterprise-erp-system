@@ -1,0 +1,17 @@
+ADMIN = "Admin"
+HR_MANAGER = "HR Manager"
+INVENTORY_MANAGER = "Inventory Manager"
+PROCUREMENT_OFFICER = "Procurement Officer"
+SALES_OFFICER = "Sales Officer"
+FINANCE_OFFICER = "Finance Officer"
+VIEWER = "Viewer"
+
+SYSTEM_ROLES = [
+    ADMIN,
+    HR_MANAGER,
+    INVENTORY_MANAGER,
+    PROCUREMENT_OFFICER,
+    SALES_OFFICER,
+    FINANCE_OFFICER,
+    VIEWER,
+]
