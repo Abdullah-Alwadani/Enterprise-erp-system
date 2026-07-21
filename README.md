@@ -94,14 +94,17 @@ Endpoint groups are documented in [docs/api/api_documentation.md](docs/api/api_d
 
 ## Screenshots
 
-Screenshot assets are included for the current portfolio presentation:
+| Dashboard | HR Module |
+|---|---|
+| ![Dashboard](screenshots/dashboard.png) | ![HR Module](screenshots/hr-module.png) |
 
-- [Login](screenshots/login.png)
-- [Dashboard](screenshots/dashboard.png)
-- [HR Module](screenshots/hr-module.png)
-- [Inventory Module](screenshots/inventory-module.png)
-- [Procurement Module](screenshots/procurement-module.png)
-- [Reports](screenshots/reports.png)
+| Inventory Module | Procurement Module |
+|---|---|
+| ![Inventory Module](screenshots/inventory-module.png) | ![Procurement Module](screenshots/procurement-module.png) |
+
+| Reports | Login |
+|---|---|
+| ![Reports](screenshots/reports.png) | ![Login](screenshots/login.png) |
 
 ## How to Run Locally
 
