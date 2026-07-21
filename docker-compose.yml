@@ -4,9 +4,9 @@ services:
       context: ./backend
     container_name: enterprise_erp_backend
     environment:
-      DATABASE_URL: sqlite:///./erp.db
-      SECRET_KEY: change-me-for-local-demo
-      ACCESS_TOKEN_EXPIRE_MINUTES: 60
+      DATABASE_URL: ${DATABASE_URL:-sqlite:///./erp.db}
+      SECRET_KEY: ${SECRET_KEY}
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-60}
     ports:
       - "8000:8000"
     command: sh -c "python seed.py && uvicorn app.main:app --host 0.0.0.0 --port 8000"

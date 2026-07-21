@@ -1,8 +1,12 @@
 __pycache__/
 *.pyc
 .env
+backend/.env
+frontend/.env
+*.env.local
 .venv/
 venv/
+backend/erp.db
 
 node_modules/
 dist/

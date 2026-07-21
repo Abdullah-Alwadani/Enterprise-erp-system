@@ -146,6 +146,10 @@ The backend container runs the seed script during startup so the SQLite demo dat
 
 ## Demo Login Accounts
 
+> All names, email addresses, phone numbers, organizations, credentials, and transactions in this repository are fictional demo data. Demo credentials are intended only for local portfolio testing and must not be reused in production.
+
+Local demo credentials:
+
 | Role | Email | Password |
 | --- | --- | --- |
 | Admin | admin@erp.com | admin123 |
